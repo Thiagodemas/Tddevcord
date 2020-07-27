@@ -17,7 +17,6 @@ const ChannelList: React.FC = () => {
       <ChannelButton channelName="Geração Gamers" />
       <ChannelButton channelName="Minenaldo" />
       <ChannelButton channelName="PES2020" />
-      <ChannelButton channelName="PES2020" />
     </Container>
   );
 };
