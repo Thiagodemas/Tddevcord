@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Layout/>
-      <h1>Rocketseat</h1>
+    
 
       <GlobalStyles/>
     </>
