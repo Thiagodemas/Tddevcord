@@ -68,7 +68,7 @@ const ChannelData: React.FC = () => {
             </>
           }
           hasMention
-          isBot
+        
         />
         {Array.from(Array(5).keys()).map((n) => (
           <ChannelMessage
