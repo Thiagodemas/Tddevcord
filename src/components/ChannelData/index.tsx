@@ -59,6 +59,17 @@ const ChannelData: React.FC = () => {
           hasMention
           isBot
         />
+         <ChannelMessage
+          author="Wendell"
+          date="19/05/2020"
+          content={
+            <>
+              <Mention>@Thiago Demas</Mention>, eu quero me tornar Flamenguista!!
+            </>
+          }
+          hasMention
+          isBot
+        />
         {Array.from(Array(5).keys()).map((n) => (
           <ChannelMessage
             key={n}
